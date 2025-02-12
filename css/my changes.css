@@ -1,0 +1,20 @@
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    max-width: 48%; 
+    height: auto; 
+    border-radius: 10px; 
+}
